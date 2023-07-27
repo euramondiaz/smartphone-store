@@ -963,3 +963,104 @@ html {
 		gap: 1.5rem;
 	}
 }
+
+@media (max-width: 468px) {
+	html {
+		font-size: 42.5%;
+	}
+
+	.content-banner {
+		max-width: 50rem;
+		padding: 22rem 0;
+	}
+
+	.heading-1 {
+		font-size: 2.8rem;
+	}
+
+	.card-feature {
+		flex-direction: column;
+		border-radius: 2rem;
+	}
+
+	.feature-content {
+		align-items: center;
+	}
+
+	.feature-content p {
+		font-size: 1.4rem;
+		text-align: center;
+	}
+
+	.feature-content span {
+		font-size: 1.6rem;
+		text-align: center;
+	}
+
+	.container-options span {
+		font-size: 1.8rem;
+		padding: 1rem 1.5rem;
+		font-weight: 500;
+	}
+
+	.container-products {
+		grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+		gap: 1rem;
+	}
+
+	.container-img .discount {
+		font-size: 2rem;
+	}
+
+	.content-card-product h3 {
+		font-size: 2.2rem;
+	}
+
+	.gallery {
+		grid-template-rows: repeat(2, 20rem);
+	}
+
+	.blogs {
+		padding: 2rem;
+	}
+
+	.container-blogs {
+		grid-template-columns: 1fr;
+		height: 75rem;
+	}
+
+	.content-blog h3 {
+		font-size: 2.4rem;
+	}
+
+	.content-blog span {
+		font-size: 1.8rem;
+	}
+
+	.content-blog p {
+		font-size: 2.2rem;
+	}
+
+	.btn-read-more{
+		font-size: 1.8rem;
+	}
+
+	.contact-info ul,
+	.information ul,
+	.my-account ul{
+		display: none;
+	}
+
+	.contact-info {
+		align-items: center;
+	}
+
+	.menu-footer{
+		grid-template-columns: 1fr;
+	}
+
+	.content p{
+		font-size: 1.6rem;
+	}
+}
+
